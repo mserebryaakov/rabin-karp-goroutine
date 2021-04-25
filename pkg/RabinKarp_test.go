@@ -3,8 +3,9 @@ package pkg_test
 import (
 	"fmt"
 	"os"
-	"rabinkarp/pkg"
 	"testing"
+
+	"github.com/mserebryaakov/rabin-karp-goroutine/pkg"
 )
 
 func readFunc(buff *string, fileName string) {
